@@ -4,14 +4,14 @@ body {
 h1 {
     color: black;
     font: 32px Garamond, Helvetica, serif;
-    text-shadow: 2px 1px black;
+    text-shadow: 1px 1px black;
     text-align: center;
 }
 
 h2{
     color: black;
     font: 18px Garamond, Helvetica, serif;
-    text-shadow: 2px 1px black;
+    text-shadow: 1px 1px black;
     text-align: center;
 }
 

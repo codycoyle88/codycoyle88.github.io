@@ -1,21 +1,15 @@
 body {
-    background-image:url('https://gfycat.com/achingsilkyfoal');
-    background-size:100%;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    height:100%;
-    width:100%;
 }
 
 h1 {
-    color: blueviolet;
+    color: black;
     font: 32px Garamond, Helvetica, serif;
     text-shadow: 2px 1px black;
     text-align: center;
 }
 
 h2{
-    color: blueviolet;
+    color: black;
     font: 18px Garamond, Helvetica, serif;
     text-shadow: 2px 1px black;
     text-align: center;
@@ -35,13 +29,6 @@ li{
 img{
     display:block;
     border: 5px solid Purple;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#center-player {
-    display: block;
-    margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
 }

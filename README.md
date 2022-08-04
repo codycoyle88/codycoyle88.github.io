@@ -1,2 +1,2 @@
 # Cody's Main Repo
- Main REpository for work
+ Main Repository for work

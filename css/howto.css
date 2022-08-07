@@ -1,0 +1,86 @@
+body{
+    background-color: rgba(0, 128, 111, 0.329);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font: 32px 'Lucida Handwriting', Helvetica, serif;
+    margin-left: 5px;
+    text-align: left;
+}
+
+
+h2{
+    color: rgb(0, 0, 0);
+    font: 18px 'Lucida Console', Helvetica, serif;
+    margin-left: 5px;
+    text-align: left;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font: 18px Lucida Console, Helvetica, serif;
+    margin-left: 5px;
+    text-align: left;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font: 18px Lucida Console, Helvetica, serif;
+    margin-left: 5px;
+    text-align: left;
+}
+
+li{
+    color:rgb(0, 0, 0);
+    font: 16px Lucida Console, Helvetica, serif;
+    text-align: left;
+}
+
+
+.layout1{
+    color: rgb(0, 0, 0);
+    font: 14px 'Lucida Console', Helvetica, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.layout2{
+    color: rgb(0, 0, 0);
+    font: 14px 'Lucida Console', Helvetica, serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pre-requisites{
+    margin-top: 5px;
+    outline:1px solid rgb(62, 118, 202);
+    border: 3px solid rgb(36, 64, 190);
+    background-color: rgb(240, 253, 255);
+}
+
+#filesetup{
+    margin-top: 5px;
+    outline:1px solid rgb(62, 118, 202);
+    border: 3px solid rgb(36, 64, 190);
+    background-color: rgb(240, 253, 255);
+}
+
+#finishedproduct{
+    margin-top: 5px;
+    outline:1px solid rgb(62, 118, 202);
+    border: 3px solid rgb(36, 64, 190);
+    background-color: rgb(240, 253, 255);
+}
+
+
+img{
+    display:block;
+    border: 5px solid rgb(156, 39, 156);
+    margin-left: auto;
+    margin-right: auto;
+}

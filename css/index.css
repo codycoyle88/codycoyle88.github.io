@@ -3,13 +3,13 @@ body {
 
 h1 {
     color: black;
-    font: 32px Garamond, Helvetica, serif;
+    font: 32px 'Lucida Handwriting', Helvetica, serif;
     text-align: center;
 }
 
 h2{
     color: black;
-    font: 18px Garamond, Helvetica, serif;
+    font: 18px 'Lucida Console', Helvetica, serif;
     text-align: center;
 }
 
@@ -19,7 +19,7 @@ ul{
 
 li{
     color: black;
-    font: 18px Garamond, Helvetica, serif;
+    font: 18px 'Lucida Console', Helvetica, serif;
     text-align: center;
 }
 

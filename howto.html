@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="A Basic how to on setting up a GitHub hosted personal webpage.">
+        <link rel="stylesheet" href="./howto.css"> </link>
+        <title><h1>How To Profile Website</h1></title>
+    </head>
+<body>
+    <h1>Create your own personal website.</h1>
+        <section id="pre-requisites">
+            <h2>Start with the basics..</h2>
+            <ol>
+                <li>GitHub Account - Follow the link to setup a Github account:<a href ="https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home">Github Signup</a> Give yourself a nice username, which you will use in a later step.</li>
+                <li>Create a new repository following the included link. <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fnew">New Repository</a> Give the new repository the following name using your username in its place. username.github.io Ensure the repository is set to public and select "Create Repository".</li>
+                <li>Navigate to the repository you just created. You can also navigate to its using the following address. https://github.com/username/username.github.io </li>
+                <li>You will now need to install an html editor to create and edit the personal page. Download and install VS Code or a similar html editor application. <a href="https://code.visualstudio.com/download"> Download VS Code</a></li>
+            </ol>
+        </section>
+        <section id="filesetup">
+            <h3>How to start the basics.</h3>
+            <ol>
+                <li>Choose a location in which you will store the local files. Name the folder whatever you'd like.</li>
+                <li>In VS Code or similar editor navigate to the folder you created and create a new file, html file. In VS Code you do this by selecting the new file icon, naming it like this "filename.html".</li> 
+                <li>Choose a profile picture you would like to display in the page, make sure that it is JPG format for this application. Paste a copy in the folder you just created. Name the file something simple to be referenced later.</li>
+                <li>Open the file you just created and insert the following text, in the following format. </li>
+                    <div class="layout1">
+                        &lt;!DOCTYPE html><br/>
+                        &lt;html><br/>
+                        &lt;body><br/>
+                        &lt;h1>Heading Text&lt;/h1><br/>
+                        &lt;img src="./mypic.jpg"/><br/>
+                        &lt;p>Paragraph Text&lt;/p><br/>
+                        &lt;/body> <br/>
+                        &lt;/html>
+                    </div>
+                <li>Now that the document has its layout its time to add some of your own personal information. In the file you will want to replace "Heading Text" with a title for the portfolio page. Something like My Portfolio. Replace the "Paragraph Text" with some information about you. Use &lt;b> within your text to create a line break. </li>
+                <li>On the line &lt;img src="./mypic.jpg" /> replace the "mypic" text with the name of your profile image. This will link its location and allow it to be displayed.</li>
+                <li>After you are complete, your finished html file should look something like this.</li>
+                    <div class="layout2"> 
+                        &lt;!DOCTYPE html><br/>
+                        &lt;html><br/>
+                        &lt;body><br/>
+                        &lt;h1>Mei's Portfolio&lt;/h1><br/>
+                        &lt;img src="./meispic.jpg"/><br/>
+                        &lt;p>Hi my name is Mei.&lt;/p><br/>
+                        &lt;/body> <br/>
+                        &lt;/html> 
+                    </div>
+                <li>Last thing to do is move the complete files to your github repository. Navigate the newly created repository. Select "upload an existing file", upload the html file and portfolio image you placed in your local file folder.</li>
+            </ol>
+        </section>
+        <section id="finishedproduct">
+            <h4>Enjoy your work.</h4>
+            <ol>
+                <li>Now that everything is uploaded to the cloud you should be able to navigate to you new personal portfolio via a browser. Navigate to https://username/username.github.io</li>
+            </ol>
+        </section>
+</body>
+</html>

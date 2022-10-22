@@ -1,27 +1,136 @@
+/*
 body {
 }
+*/
 
 h1 {
     color: black;
     font: 32px 'Lucida Handwriting', Helvetica, serif;
-    text-align: center;
+    text-align: left;
 }
 
 h2{
     color: black;
     font: 18px 'Lucida Console', Helvetica, serif;
-    text-align: center;
+    text-align: left;
 }
-
+/*
 li{
     color: black;
     font: 18px 'Lucida Console', Helvetica, serif;
     text-align: center;
 }
-
+*/
 img{
     display:block;
     border: 5px solid Purple;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
+
+
+
+.sidebar {
+    /* TODO: Define the grid area here */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 12;
+}
+
+.content {
+    /* TODO: Define the grid area here */
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 65;
+}
+
+#meimage{
+    display:block;
+    border: 5px solid Purple;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.box {
+    background-color: #9494e0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 100%;
+}
+
+.header {
+    /* TODO: Define the grid area here */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 1px;
+    padding: 1px;
+}
+
+.footer {
+    /* TODO: Define the grid area here */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 65;
+    grid-row-end: 66;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #fff;
+    color: #444;
+
+    /* TODO: Define the grid-template-columns and grid-template-areas values here. */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 30px 120px 165px 60px;
+    grid-template-areas:
+      'header header header'
+      'sidebar content content'
+      'sidebar content_bio content_bio'
+      'footer  footer  footer';
+}
+
+
+
+.content_bioL {
+    /* TODO: Define the grid area here */
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 32;
+    grid-row-end: 65;
+    background-color: #0f3a18;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 100%;
+}
+
+.content_bioR {
+    /* TODO: Define the grid area here */
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 32;
+    grid-row-end: 65;
+    background-color: #0f3a18;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#aboutMe{
+    color: black;
+    font: 18px 'Lucida Console', Helvetica, serif;
+    text-align: left;
+    list-style-type: none;
+}
+
+
+  .header,.footer {
+    background-color: #999;
+    }

@@ -2,38 +2,63 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Cody's profile page containing pictures, hypelinks, music controls">
+        <meta name="description" content="Cody's profile page containing pictures, hyperlinks, music controls">
         <link rel="stylesheet" href="css/index.css"> </link>
         <title><h1>codycoyle88</h1></title>
     </head>
-    <body>
-        <!-- Profile title and Profile pic -->
-        <section>
-        <h1>Cody Coyle</h1>
-        <img src="images/codypic.jpg" width="200" alt="Main profile picture"/>
-        </section>
-        <!-- About me section, titel and un ordered list-->
-        <section>
-            <h2>About Me</h2>
-            <ul>
-                <li>I live in Spokane, Washington</li>
-                <li>I was born in Anchorage, Alaska</li>
-                <li>I am currently employed as an Electrical Engineer</li>
-                <li>I would love to become a remote developer in the near future</li>
-            </ul>
-        </section>
-        <!-- Interests section, unordered list-->
-        <section>
-            <h2>Interests</h2>
-            <ul>
-                <li>Music - <a href=https://www.youtube.com/watch?v=7s8-esX9DgI> Recent favorite</a></li>
-                <li>Programming - <a href=https://www.arduino.cc/> Arduino</a></li>
-                <li>3d Printing</li>
-            </ul>
-        </section>
-        <!-- Closing picture section, sunset.-->
-        <section>
-        <img src="images/sunset.jpg" width="500" alt="Sunset- wide shot"/>
-        </section>
+    <body id="main">
+        <div class="wrapper">
+            <div class="box header"><!--Header-->
+                <section>
+                    <img src="images/header_photo.jpg" width="1887px" height="200px" alt="Beautiful Sunset"/>
+                    </section>
+            </div>
+            <div class="box sidebar">Navigation:
+            <br/><a href=https://www.youtube.com/watch?v=7s8-esX9DgI> Projects Page</a>
+        </div>
+            <div class="box content"> <!--Content-->
+                <section>
+                    <h1>Cody Coyle</h1>
+                            <!-- Profile title and Profile pic -->
+                            <iframe width="644" height="362" src="https://www.youtube.com/embed/akjAt3VQAqs" title="🔥 The Best Winter Campfire 🔥 Ultra HD 4K - Relaxing Fire Burning With Crackling Fireplace Sounds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </section>
+                    
+                    <!-- Interests section, unordered list-->
+                    <!--
+                    <section>
+                        <h2>Interests</h2>
+                        <ul>
+                            <li>Music - <a href=https://www.youtube.com/watch?v=7s8-esX9DgI> Recent favorite</a></li>
+                            <li>Programming - <a href=https://www.arduino.cc/> Arduino</a></li>
+                            <li>3d Printing</li>
+                        </ul>
+                    </section>
+                    -->
+                    <!-- Closing picture section, sunset.-->
+                    <!--
+                    <section>
+                    <img src="images/sunset.jpg" width="500" alt="Sunset- wide shot"/>
+                    </section>
+                    -->
+            </div>
+        <div class="box content_bioL">
+            <img id="meimage" src="images/codypic.jpg" width="200" alt="Main profile picture"/>
+        </div>
+        <div class="box content_bioR">
+            <!-- About me section, title and un ordered list-->
+            <section id="aboutMe">
+                <h2>A little about me about me</h2>
+                <p>My name is Cody. I was born in Alaska and grew up in the PNW. </li>
+                    I have lived various places in my life and traveled all around the country for work.</li>
+                    I am currently employed as an Electrical Engineer</li>
+                    I would love to become a remote developer in the near future</li>
+                </p>
+            </section>
+        </div>
+            <div class="box footer">Footer</div>
+        </div>
+        
+
+        
     </body>
 </html>

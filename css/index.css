@@ -14,13 +14,19 @@ h2{
     font: 18px 'Lucida Console', Helvetica, serif;
     text-align: left;
 }
-/*
+
 li{
     color: black;
     font: 18px 'Lucida Console', Helvetica, serif;
-    text-align: center;
+    text-align: left;
 }
-*/
+
+a {
+    display:inline-block;
+    padding-left: 10px;
+    text-align: center;
+    }
+
 img{
     display:block;
     border: 5px solid Purple;
@@ -121,6 +127,7 @@ img{
     border-radius: 5px;
     padding: 5px;
 }
+
 
 
 #aboutMe{

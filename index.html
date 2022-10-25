@@ -2,31 +2,38 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Cody's profile page with bio and project links.">
+        <meta name="description" content="Cody's main page with bio and project links and other navigation.">
         <link rel="stylesheet" href="css/index.css"> </link>
-        <title><h1>codycoyle88</h1></title>
+        <title><h1>Cody's Main Page</h1></title>
     </head>
     <body id="main">
-        <div class="wrapper">
+        <div class="mainwrapper">
             <div class="box header"><!--Header-->
                 <section>
-                    <img src="images/header_photo.jpg" width="1887px" height="200px" alt="Beautiful Sunset"/>
+                    <img src="images/header_photo.jpg" width="1885px" height="200px" alt="Beautiful Sunset"/>
                     </section>
             </div>
-            <div class="box sidebar">Navigation:
+            <div id="navbar" class="box sidebar"><!--Navigation:-->
+                <h2>Navigation:</h2>
                 <section>
-            <br/><a href="https://codycoyle88.github.io/eyes/"> Eyes Exercise</a>
-            <br/><a href="https://codycoyle88.github.io/pacmen/"> PacMen Exercise</a>
-            <br/><a href="https://codycoyle88.github.io/realtimebustracker/"> Realtime Bus Tracker</a>
+                    <button class="highlightbutton" onclick="location.href='https://codycoyle88.github.io/index.html'" type="button">
+                        Main</button>
+                    <button class="navbutton" onclick="location.href='https://codycoyle88.github.io/projects.html'" type="button">
+                        Project Page</button>
+                    <button class="navbutton" onclick="location.href='https://codycoyle88.github.io/eyes/index.html'" type="button">
+                        Eyes Exercise</button>
+                    <button class="navbutton" onclick="location.href='https://codycoyle88.github.io/pacman/index.html'" type="button">
+                        PacMen Exercise</button>
+                    <button class="navbutton" onclick="location.href='https://codycoyle88.github.io/realtimebustracker/index.html'" type="button">
+                        Real-Time Bus Tracker</button>
                 </section>
         </div>
             <div class="box content"> <!--Content-->
                 <section>
-                    <h1>Cody Coyle</h1>
+                    <h2>Cody Coyle - Main</h2>
                             <!-- Profile title and Profile pic -->
-                            <iframe width="644" height="362" src="https://www.youtube.com/embed/akjAt3VQAqs" title="🔥 The Best Winter Campfire 🔥 Ultra HD 4K - Relaxing Fire Burning With Crackling Fireplace Sounds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe id="linkframe" width="644" height="362" src="https://www.youtube.com/embed/akjAt3VQAqs" title="🔥 The Best Winter Campfire 🔥 Ultra HD 4K - Relaxing Fire Burning With Crackling Fireplace Sounds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </section>
-                    
                     <!-- Interests section, unordered list-->
                     <!--
                     <section>
@@ -50,8 +57,8 @@
         </div>
         <div class="box content_bioR">
             <!-- About me section, title and un ordered list-->
-            <section id="aboutMe">
-                <h2>A little about me about me</h2>
+            <section>
+                <h4>A little about me about me</h4>
                 <p>My name is Cody. 
                     <br/><br/>I was born in Alaska but grew up in the PNW.
                     I have lived various places in my life and traveled all around the country for work.
@@ -76,7 +83,7 @@
                   </table>
             </section>
         </div>
-            <div class="box footer">Footer</div>
+            <div class="box footer"><!--Footer--></div>
         </div>
     </body>
 </html>

@@ -136,17 +136,12 @@ li{
     width: 147px;
     cursor: pointer;
 }
+
 .navbutton:hover{
     color: hotpink;
     font-style: oblique;
     cursor: pointer;
 }
-
-a:hover {
-    color: hotpink;
-    cursor: pointer;
-}
-
 
 a {
     display:inline-block;
@@ -162,6 +157,13 @@ a:hover {
     font-style: oblique;
     cursor: pointer;
 }
+
+h4:hover{
+    color: hotpink;
+    font-style: oblique;
+    cursor: pointer;
+}
+
 .content {
     /* TODO: Define the grid area here */
     grid-column-start: 3;

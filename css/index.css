@@ -104,10 +104,6 @@ li{
     padding: 4px 4px;
 }
 
-.box.content {
-    padding-left: 15px;
-}
-
 .highlightbutton{
     border: 1px solid black;
     border-radius: 4px;
@@ -183,6 +179,9 @@ a:hover {
     padding-left: 10px;
 }
 
+.box.content {
+    padding-left: 15px;
+}
 .contentprojects{
     /* TODO: Define the grid area here */
     grid-column-start: 3;

@@ -180,7 +180,9 @@ a:hover {
 }
 
 .box.content {
-    padding-left: 150px;
+    padding-left: 15px;
+    background-color: #9494e0;
+    border-radius: 5px;
 }
 .contentprojects{
     /* TODO: Define the grid area here */
